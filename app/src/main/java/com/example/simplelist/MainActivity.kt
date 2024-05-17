@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         listview.setOnItemClickListener { adapterView, view, position, id ->
 
-            Toast.makeText(this,"You have clicked on" +countrynames[position],Toast.LENGTH_LONG).show()
+            Toast.makeText(this,"You have clicked on " +countrynames[position],Toast.LENGTH_LONG).show()
         }
 
 
